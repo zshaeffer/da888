@@ -795,3 +795,6 @@ $settings['file_scan_ignore_directories'] = [
           'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
           'driver' => 'mysql',
         );
+ $settings['trusted_host_patterns'] = array(
+   '^da888ac3f\.azurewebsites\.net$',
+ );
